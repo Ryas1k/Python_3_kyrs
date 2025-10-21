@@ -6,6 +6,23 @@
 
 <img width="1221" height="602" alt="image" src="https://github.com/user-attachments/assets/8d2603f2-1836-4762-9bec-609f7c2304e8" />
 
+Sample Input 1:  
+  
+13  
+Sample Output 1:  
+  
+2  
+Sample Input 2:  
+
+2  
+Sample Output 2:  
+
+1  
+Sample Input 3:  
+
+20  
+Sample Output 3:  
+3  
 
 ## python_2.py
 
@@ -14,9 +31,40 @@
 <img width="979" height="904" alt="image" src="https://github.com/user-attachments/assets/18187782-89a0-4956-89f7-44bc88d59f58" />
 
 https://stepik.org/lesson/569749/step/8?unit=564263 cсылка на задачу.
+ 
+Sample Input 1:
 
+6  
+ivan-petrov@beegeek.bzz  
+petr-ivanov@beegeek.bzz  
+ivan-petrov1@beegeek.bzz  
+ivan-ivanov@beegeek.bzz  
+ivan-ivanov1@beegeek.bzz  
+ivan-ivanov2@beegeek.bzz  
+3  
+ivan-ivanov  
+petr-petrov  
+petr-ivanov  
+Sample Output 1:  
 
-## python_3.py
+ivan-ivanov3@beegeek.bzz  
+petr-petrov@beegeek.bzz  
+petr-ivanov1@beegeek.bzz  
+Sample Input 2:  
+
+2  
+timyr-guev2@beegeek.bzz  
+anri-tabuev@beegeek.bzz  
+3  
+timyr-guev  
+timyr-guev  
+anri-tabuev  
+Sample Output 2:  
+
+timyr-guev@beegeek.bzz  
+timyr-guev1@beegeek.bzz  
+anri-tabuev1@beegeek.bzz  
+## python_3.py  
 
 Скрипт содержит функции сортировки списка на основе пользовательских правил, включая сортировку по длине элементов и лексикографическое сравнение. Возможно использование lambda-функций для создания сложных ключей сортировки.
 
