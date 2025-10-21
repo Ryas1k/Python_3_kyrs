@@ -75,14 +75,59 @@ anri-tabuev1@beegeek.bzz
 
 Скрипт предназначен для поиска и подсчета дубликатов в массиве или списке чисел. Используются структуры данных dict и set для выявления повторяющихся значений и организации удобной агрегации.
 
+<img width="1077" height="538" alt="image" src="https://github.com/user-attachments/assets/56f376f9-fc3a-4096-b010-47b4b3eb1602" />
+
+Примечание 2. Начальная часть ответа выглядит так:  
+  
+2010-Q3  
+2017-Q1  
+...  
+  
 ## python_5.py
 
 Программа работает с числовыми массивами, группируя числа по их сумме цифр и выводя результаты группировки в виде словарей. Полезна для задач группировки данных по определённому признаку.
 
+<img width="1108" height="756" alt="image" src="https://github.com/user-attachments/assets/b380ab63-9af6-4822-8b9c-f854e77ce37b" />
+
+Sample Input 1:  
+  
+dates = [date(2021, 10, 5), date(1992, 6, 10), date(2012, 2, 23), date(1995, 10, 12)]  
+
+print(get_min_max(dates))  
+Sample Output 1:  
+  
+(datetime.date(1992, 6, 10), datetime.date(2021, 10, 5))  
+Sample Input 2:  
+  
+print(get_min_max([]))  
+Sample Output 2:  
+  
+()  
+  
 ## python_6.py
 
 Скрипт анализирует входные данные, реализует фильтрацию элементов по условиям, связанным с обработкой данных списками и множествами. Реализует выборку уникальных значений и формирование результирующих коллекций.
 
+<img width="882" height="190" alt="image" src="https://github.com/user-attachments/assets/73b94c05-cbd0-49f9-8599-10b21d4226e9" />
+
+Sample Input 1:  
+  
+date1 = date(2021, 11, 1)  
+date2 = date(2021, 11, 22)  
+  
+print(saturdays_between_two_dates(date1, date2))  
+Sample Output 1:  
+  
+3  
+Sample Input 2:  
+  
+date1 = date(2020, 7, 26)  
+date2 = date(2020, 7, 2)  
+  
+print(saturdays_between_two_dates(date1, date2))  
+Sample Output 2:  
+  
+4    
 
 ## files.txt
 
